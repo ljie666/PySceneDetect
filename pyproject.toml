@@ -60,6 +60,7 @@ dependencies = [
 [project.optional-dependencies]
 pyav = ["av>=9.2"]
 moviepy = ["moviepy"]
+organizer = ["Pillow", "openpyxl>=3.1,<4"]
 dev = [
     "av>=9.2",
     "moviepy",
